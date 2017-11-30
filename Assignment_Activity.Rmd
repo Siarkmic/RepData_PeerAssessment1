@@ -31,11 +31,11 @@ activity <- data.table(activity.raw)
 act.sumSteps <- activity[, sum(steps), by = date]
 colnames(act.sumSteps)[2] <- "steps"
 head(act.sumSteps)
-library(ggplot2)
+
 ```
 
-```{r ggplot, echo=FALSE}
-
+```{r fig.width=7, fig.height=4, echo=FALSE}
+library(ggplot2)
 ggplot(act.sumSteps, aes(steps)) +
         geom_histogram(fill="lightblue", binwidth = 2500)+
         labs(x="# of Steps", y="Frequency") + 
