@@ -13,7 +13,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ## Loading dataset
 
 ```{r loading data}
-activity <- read.csv("activity.csv")
+activity.raw <- read.csv("activity.csv")
 
 
 ```
