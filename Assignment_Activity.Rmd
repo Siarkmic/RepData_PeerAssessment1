@@ -34,7 +34,7 @@ head(act.sumSteps)
 
 ```
 
-```{r fig.width=7, fig.height=4, echo = FALSE}
+```{r somePlot, echo=FALSE}
 library(ggplot2)
 ggplot(act.sumSteps, aes(steps)) +
         geom_histogram(fill="lightblue", binwidth = 2500)+
