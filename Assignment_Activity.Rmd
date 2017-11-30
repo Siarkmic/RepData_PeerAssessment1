@@ -20,8 +20,8 @@ activity <- read.csv("activity.csv")
 ```
 
 ## What is mean total number of steps taken per day?
-### For this part of the assignment, you can ignore the missing values in the dataset.
-### Make a histogram of the total number of steps taken each day
+For this part of the assignment, you can ignore the missing values in the dataset.
+Make a histogram of the total number of steps taken each day
 
 ```{r number of steps}
 library(data.table)
