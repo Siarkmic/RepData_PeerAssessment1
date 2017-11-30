@@ -2,9 +2,8 @@
 title: "Reproducible Research: Peer Assessment 1"
 author: "MPS"
 date: "November 28, 2017"
-output:
-  word_document: default
-  html_document: default
+output: html_document
+keep_md: true
 ---
 
 ```{r setup, include=FALSE}
